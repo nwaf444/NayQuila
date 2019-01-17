@@ -16,7 +16,7 @@ client.on('message', message => {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'setw')) {
-  client.user.setActivity(argresult, {type:'SEX'});
+  client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`**✅   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'setl')) {
