@@ -1,7 +1,7 @@
 {
-  "name": "mohamed",
+  "name": "NayQuila",
   "version": "2.1.0",
-  "description": "-- AWESOMENESS --",
+  "description": "NayQuila Own This",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
