@@ -10,7 +10,7 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'setg')) {
     client.user.setGame(argresult);
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(`**💔   ${argresult}**`)
   } else 
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
