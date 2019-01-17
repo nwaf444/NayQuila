@@ -37,5 +37,6 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 }
 });
 
-
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+// Editing a message the bot sent
+message.channel.send("Test").then(sentMessage => sentMessage.edit("Blah"));
+// message now reads : "Blah"
